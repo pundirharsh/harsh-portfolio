@@ -60,7 +60,7 @@ export default function App() {
         <section id="about" className="section hero">
           <div className="container hero__grid">
             <ProfilePhoto
-              src="/images/my.png"
+              src="/images/1000046037.png"
               alt="Portrait of Harshvardhan Pundir"
               initials="H"
             />
