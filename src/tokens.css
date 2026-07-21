@@ -1,0 +1,48 @@
+:root {
+  /* Typography */
+  --font-family-primary: 'Lato', sans-serif;
+  --font-size-base: 14.6667px;
+  --font-weight-base: 400;
+  --font-lineheight-base: 25.6667px;
+
+  --font-size-xs: 11.73px;
+  --font-size-sm: 14.67px;
+  --font-size-md: 18.33px;
+  --font-size-lg: 25.67px;
+  --font-size-xl: 29.33px;
+  --font-size-2xl: 51.33px;
+
+  /* Color — modernized palette */
+  --color-text-primary: #cbd5e1;
+  --color-text-secondary: #94a3b8;
+  --color-text-tertiary: #7dd3c9;
+  --color-text-inverse: #ffffff;
+
+  --color-surface-base: #071029; /* deep navy */
+  --color-surface-raised: #06b6d4; /* cyan accent */
+  --color-surface-strong: #0b2640; /* darker navy */
+
+  /* Derived on-color text tokens */
+  --color-text-on-raised: #04151a;
+  --color-text-on-strong: #e6eef7;
+
+  /* Spacing */
+  --space-1: 10.31px;
+  --space-2: 11px;
+  --space-3: 11.73px;
+  --space-4: 12.47px;
+  --space-5: 14.44px;
+  --space-6: 14.67px;
+  --space-7: 16.5px;
+  --space-8: 22px;
+
+  /* Radius / motion */
+  --radius-xs: 5px;
+  --motion-instant: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-instant: 0ms;
+  }
+}
